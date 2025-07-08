@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "cover": "https://i.ibb.co/Kc2hCnBd/istockphoto-1483968576-1024x1024.jpg",
+    "title": "Exploring the Future of AI",
+    "author": "Sophia Turner",
+    "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
+    "posted_date": "2025-07-05",
+    "reading_time": "6",
+    "hashtags": ["#AI", "#Future", "#Technology"]
+  },
+  {
+    "id": "2",
+    "cover": "https://i.ibb.co/nscjQRP0/josh-sorenson-wz-PFQKHtwgw-unsplash.jpg",
+    "title": "Mastering Tailwind CSS",
+    "author": "Liam Brooks",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posted_date": "2025-06-22",
+    "reading_time": "4",
+    "hashtags": ["#CSS", "#Tailwind", "#Frontend"]
+  },
+  {
+    "id": "3",
+    "cover": "https://i.ibb.co/dsPGDqZL/fotis-fotopoulos-6s-Al6a-Q4-OWI-unsplash-1.jpg",
+    "title": "Understanding Blockchain Basics",
+    "author": "Ava Chen",
+    "author_img": "https://randomuser.me/api/portraits/women/65.jpg",
+    "posted_date": "2025-07-01",
+    "reading_time": "7",
+    "hashtags": ["#Blockchain", "#Crypto", "#Web3"]
+  },
+  {
+    "id": "4",
+    "cover": "https://i.ibb.co/Hfg0CqCJ/faraaz-zuberi-Yo-Iq2-Gy-Yc-AU-unsplash.jpg",
+    "title": "The Rise of Remote Work Culture",
+    "author": "Noah Patel",
+    "author_img": "https://randomuser.me/api/portraits/men/68.jpg",
+    "posted_date": "2025-06-30",
+    "reading_time": "5",
+    "hashtags": ["#RemoteWork", "#Productivity", "#WorkCulture"]
+  },
+  {
+    "id": "5",
+    "cover": "https://i.ibb.co/F4fJ115Z/istockphoto-1809659600-1024x1024.jpg",
+    "title": "Beginner's Guide to JavaScript",
+    "author": "Emma Garcia",
+    "author_img": "https://randomuser.me/api/portraits/women/51.jpg",
+    "posted_date": "2025-07-06",
+    "reading_time": "8",
+    "hashtags": ["#JavaScript", "#Coding", "#WebDev"]
+  }
+]
