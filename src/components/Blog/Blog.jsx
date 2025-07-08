@@ -17,7 +17,7 @@ const Blog = ({blog,handleAddToBoormark}) => {
                </div>
                <div className='items-center' >
                  <span  className='text 2xl font-semibold'  >{reading_time }min read</span>
-                <button onClick={handleAddToBoormark} className='ml-3 text-sky-600 text-4xl gt-4'><MdOutlineBookmarks></MdOutlineBookmarks></button>
+                <button onClick={() =>handleAddToBoormark(blog)} className='ml-3 text-sky-600 text-4xl gt-4'><MdOutlineBookmarks></MdOutlineBookmarks></button>
                </div>
             </div>
              <h1 className='text-4xl'>{title}</h1>
