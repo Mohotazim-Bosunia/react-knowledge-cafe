@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 
 const Blog = ({blog}) => {
-    const {title,cover,author_img,reading_time,author,posted_date}=blog;
+    const {title,cover,author_img,reading_time,author,posted_date,hashtags}=blog;
     return (
-        <div>
+        <div className='mb-20'>
            
-            <img src={cover} alt={`Cover picture of the title  ${title}`} />
-            <div className='md:flex justify-between items-center'>
+            <img className='w-full ' src={cover} alt={`Cover picture of the title  ${title}`} />
+            <div className='md:flex justify-between items-center mt-5'>
                <div className='md:flex items-center'>
                  <img src={author_img} alt=""  className='w-13 h-13 rounded-full'/>
                  <div className='ml-6'>
@@ -16,7 +16,9 @@ const Blog = ({blog}) => {
                </div>
                 <span>{reading_time }min read</span>
             </div>
-             <h1 className='texr-4xl'>Title:{title}</h1>
+             <h1 className='text-4xl'>{title}</h1>
+             <p className='font-bold'>{hashtags}</p>
+             <button className=''>Mark as read</button>
         </div>
     );
 };
